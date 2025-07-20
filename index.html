@@ -27,6 +27,25 @@
     </div>
   </div>
 
+  <!-- Modal for detailed image view -->
+  <div id="imageModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImage" src="" alt="" />
+      <div class="modal-info">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDate" class="modal-date"></p>
+        <p id="modalExplanation" class="modal-explanation"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer to credit NASA API -->
+  <footer class="site-footer">
+    <p>Powered by <a href="https://api.nasa.gov/" target="_blank" rel="noopener">NASA's Astronomy Picture of the Day API</a></p>
+    <p>Images and descriptions courtesy of NASA</p>
+  </footer>
+
   <script src="js/dateRange.js"></script>
   <script src="js/script.js"></script>
 </body>
